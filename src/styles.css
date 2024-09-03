@@ -1,1 +1,79 @@
+body {
+    background-image: url('./19333449.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+#content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#content {
+    width: 400px;
+}
+
+#home-desc {
+    font-size: 1.5em;
+}
+
+p, h1, h2 {
+    color: white;
+    text-align: center;
+}
+
+#home-page, #about-page, #menu-page {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+#about-main {
+    font-size: 1.1em;
+}
+
+.section {
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    width: 100vw;
+    background-color: black;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: #13243e;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #284064;
+}
+
+a {
+    color: white;
+}

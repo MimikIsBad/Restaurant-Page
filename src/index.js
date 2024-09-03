@@ -1,4 +1,4 @@
-console.log('JavaScript is running!');
+import './styles.css';
 
 import { loadHomePage} from "./homePage.js";
 import { loadAboutPage } from "./aboutPage.js";
